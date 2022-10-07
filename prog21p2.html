@@ -1,0 +1,152 @@
+<!--Admission page-->
+<html>
+ <head>
+   <title>Admissionpage</title>
+ </head>
+ <body bgcolor="SeaShell">
+   <form>
+     <table cellpadding="8px" cellspacing="8px" height="27%" bgcolor="MistyRose">
+     <font size="6">
+      <center><b>Admission details</b></center>
+      <br>
+      <tr>
+         <td>Enter your name here:</td>
+         <td><input type="text" name="n1" id="t1" size="20" title="Enter your name here" required ></td>
+         <td>Enter your mother's name here:</td>
+         <td><input type="text" name="n2" id="t2" size="20" value="Enter your mother's name here" title="Enter your mother's name here" required></td>
+         <td>Enter your father's name here:</td>
+         <td><input type="text" name="n3" id="t3" size="20" title="Enter your father's name here" required></td>
+      </tr>
+      <tr>
+         <td>Enter your address:</td>
+         <td><input type="text" name="n4" id="t4" size="70" title="Enter your address here" required></td>
+         <td>State:</td>
+         <td><input type="text" name="n5" id="t5" size="15" required></td>
+         <td>City:</td>
+         <td><input type="text" name="n6" id="t6" size="15" required></td>
+         <td>Pincode:</td>
+         <td><input type="number" required></td> 
+      </tr>
+      <tr>
+         <td>Enter your phone number here:</td>
+         <td><input type="text" pattern="[0-9]{3}-[0-9]{5}-[0-9]{5}" placeholder="mobile number"></td>
+      </tr>
+      <tr>
+         <td>Enter your date of birth:</td>
+         <td><input type="date"></td>
+      </tr>
+      <tr>
+         <td>Enter your email address</td>
+         <td><input type="email"></td>
+      </tr>
+      <tr>
+         <td rowspan="4">Caste:</td>
+         <td><input type="checkbox" name="n7" id="t7"><label for="t7">SC</label></td>
+      </tr>
+      <tr>
+         <td><input type="checkbox" name="n8" id="t8"><label for="t8">General</label></td>
+      </tr>
+      <tr>
+         <td><input type="checkbox" name="n9" id="t9"><label for="t9">OBC</label></td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" name="n10" id="t10"><label for="t10">Sc</label></td>   
+      </tr>
+      <tr>
+         <td rowspan="3">Gender:</td>
+         <td><input type="radio" name="n11" id="t11"><label for="t11">Male</label></td>
+      </tr>
+      <tr>
+         <td><input type="radio" name="n11" id="t12"><label for="t12">Female</label></td>
+      </tr>
+      <tr>
+         <td><input type="radio" name="n11" id="t13"><label for="t13">Others</label></td>
+      </tr>
+     </font>
+   </table>
+   <br>
+   <br><b>Marks obtained in Class X</b>
+   <table border=2px" cellpadding="8px" cellspacing="4px" bgcolor="MistyRose" height="10%">
+      <tr>
+         <td>Subjects</td>
+         <td>Marks</td>
+      </tr>
+      <tr>
+         <td><input type="text" name="n12" id="t14"></td>
+         <td><input type="number"></td>
+      </tr>
+      <tr>
+         <td><input type="text" name="n13" id="t15"></td>
+         <td><input type="number"</td>
+      </tr>
+      <tr>
+         <td><input type="text" name="n14" id="t16"></td>
+         <td><input type="number"></td>
+      </tr>
+       <tr>
+         <td><input type="text" name="n15" id="t17"></td>
+         <td><input type="number"></td>
+      </tr>
+      <tr>
+         <td><input type="text" name="n16" id="t18"></td>
+         <td><input type="number"></td>
+      </tr>
+  </table>
+  <br><b>Marks obtained in Class XII</b>
+   <table border=2px" cellpadding="8px" cellspacing="4px" bgcolor="MistyRose" height="10%">
+      <tr>
+         <td>Subjects</td>
+         <td>Marks</td>
+      </tr>
+      <tr>
+         <td><input type="text" name="n12" id="t14"></td>
+         <td><input type="number"></td>
+      </tr>
+      <tr>
+         <td><input type="text" name="n13" id="t15"></td>
+         <td><input type="number"</td>
+      </tr>
+      <tr>
+         <td><input type="text" name="n14" id="t16"></td>
+         <td><input type="number"></td>
+      </tr>
+       <tr>
+         <td><input type="text" name="n15" id="t17"></td>
+         <td><input type="number"></td>
+      </tr>
+      <tr>
+         <td><input type="text" name="n16" id="t18"></td>
+         <td><input type="number"></td>
+      </tr>
+  </table>
+  <br>
+  <table cellpadding="8px" cellspacing="5px" bgcolor="MistyRose" height="20%"> 
+    <tr>
+        <td><label for="sub">Stream you want to choose?</label></td>
+        <td><select id="sub" name="sub">
+               <option value="Maths">Maths</option>
+               <option value="Physics">Physics</option>
+               <option value="Computer Science">Computer Science</option>
+               <option value="Bengali">Bengali</option>
+               <option value="English">English</option>
+               <option value="History">History</option>
+           </select></td>
+    </tr>
+    <tr>
+       <td>Father's occupation:</td>
+       <td><input type="text" name="n17" id="t19"></td>
+    </tr>
+    <tr>
+       <td>Mother's occupation</td>
+       <td><input type="text" name="n18" id="t20"></td>
+    </tr>
+    <tr>
+       <td>Annual income:</td>
+       <td><input type="number"></td>
+    </tr>
+  </table> 
+  <input type="submit" value="submit">
+  <input type="reset" value="reset">
+  </form>
+ </body>
+</html>
